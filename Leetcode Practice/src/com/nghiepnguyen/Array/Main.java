@@ -3,7 +3,7 @@ package com.nghiepnguyen.Array;
 public class Main {
     public static void main(String[] args) {
         int[] a = new int[]{3, 4, 5, 6, 1, 2};
-        int value=privotedBinarySearch(a, a.length, 6);
+        int value = privotedBinarySearch(a, a.length, 6);
         System.out.print(value);
     }
 
@@ -85,4 +85,26 @@ public class Main {
             return findPrivot(a, l, m - 1);
         return findPrivot(a, m + 1, r);
     }
+
+    static int binarySearchRotateArray(int[] a, int l, int r, int k) {
+        if (l > r)
+            return -1;
+        int m = (l + r) / 2;
+        if (a[m] == k)
+            return m;
+        if (a[l] <= a[m]) {
+            if (k >= a[l] && k <= a[m])
+                return binarySearchRotateArray(a, l, m - 1, k);
+            return binarySearchRotateArray(a, m + 1, r, k);
+        }
+        if (k >= a[m] && k <= a[r])
+            return binarySearchRotateArray(a, m + 1, r, k);
+        return binarySearchRotateArray(a, l, m - 1, k);
+    }
+
+//    public static void main(String[] args) {
+//        int[] a = new int[]{3, 4, 5, 6, 1, 2};
+//        int value = binarySearchRotateArray(a, 0, a.length, 1);
+//        System.out.print(value);
+//    }
 }
