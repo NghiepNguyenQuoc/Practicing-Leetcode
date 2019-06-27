@@ -1,46 +1,43 @@
 package com.nghiepnguyen.Array;
 
 import java.util.ArrayList;
-import java.util.List;
+import java.util.function.Consumer;
 
-public class SpiralOrderMatrix {
-
-    public static List<Integer> spiralOrder(int[][] matrix) {
-        List<Integer> lst = new ArrayList<Integer>();
-        int m = matrix.length;
-        if (m == 0)
-            return null;
-        int n = matrix[0].length;
-
-        int i = 0, k = 0, l = 0;
-        while (k < m && l < n) {
-            for (i = l; i < n; ++i)
-                lst.add(matrix[k][i]);
-            k++;
-
-            for (i = k; i < m; ++i)
-                lst.add(matrix[i][n - 1]);
-            n--;
-            if (l < n) {
-                for (i = n - 1; i >= l; --i) {
-                    lst.add(matrix[m - 1][i]);
-                }
-                m--;
+public class AddOneNumber {
+    public static ArrayList<Integer> plusOne(ArrayList<Integer> A) {
+        for (int i = A.size() - 1; i >= 0; i--) {
+            if (A.get(i) < 9) {
+                A.set(i, A.get(i) + 1);
+                return A;
             }
-
-            if (k < m) {
-                for (i = m - 1; i >= k; --i) {
-                    lst.add(matrix[i][l]);
-                }
-                l++;
-            }
+            A.set(i, 0);
         }
-        return lst;
+        ArrayList<Integer> b = new ArrayList<Integer>();
+        for (int i=0;i<A.size()+1;i++){
+            b.add(0);
+        }
+        b.set(0,1);
+        return b;
+//        int a = 0, k = 0, greater = 0;
+//        for (int i = A.size() - 1; i >= 0; i--) {
+//            a += (Integer) A.get(i) * Math.pow(10, k++);
+//        }
+//        a++;
+//        ArrayList<Integer> b = new ArrayList<Integer>();
+//        while (a / 10 > 0){
+//            b.add(a % 10);
+//            a = a / 10;
+//        }
+//        b.add(a % 10);
+//        return b;
     }
 
-    public static void main(String[] args) {
-        int a[][] = {{1}};
 
-        System.out.print(spiralOrder(a).toString());
+    public static void main(String[] args) {
+        ArrayList<Integer> lst = new ArrayList<>();
+        lst.add(9);
+        lst.add(9);
+        lst.add(9);
+        System.out.print(plusOne(lst).toString());
     }
 }
