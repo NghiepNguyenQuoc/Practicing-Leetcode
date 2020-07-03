@@ -1,0 +1,53 @@
+class LRUCache {
+    HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
+    LinkedList<Integer> ll = new LinkedList<Integer>();
+    // int head = -1, tail = -1;
+    int cap = 0;
+    
+    public LRUCache(int capacity) {
+        cap = capacity;
+    }
+    
+    public int get(int key) {
+        if(map.get(key) != null) {
+            ll.remove(new Integer(key));
+            ll.addLast(key);
+            return map.get(key);
+        }
+        else return -1;    
+    }
+    
+    public void put(int key, int value) {
+        if(ll.size() >= cap) {
+            if(map.get(key)!= null) {  
+                map.put(key, value);
+                ll.remove(new Integer(key));
+                ll.addLast(key);
+            } else {
+                int first = ll.getFirst();
+                map.remove(first);
+                ll.removeFirst(); 
+                
+                map.put(key, value);
+                ll.add(new Integer(key));
+            }
+        
+        } else {
+            map.put(key, value);
+            if(map.get(key)!= null) {  
+                ll.remove(new Integer(key));
+                ll.addLast(key);
+            } else {
+                ll.add(new Integer(key));   
+            }
+        }
+    }
+}
+
+/**
+ * https://leetcode.com/problems/lru-cache/submissions/
+ * Your LRUCache object will be instantiated and called as such:
+ * LRUCache obj = new LRUCache(capacity);
+ * int param_1 = obj.get(key);
+ * obj.put(key,value);
+ */
