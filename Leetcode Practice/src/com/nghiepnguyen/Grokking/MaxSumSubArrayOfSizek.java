@@ -25,5 +25,23 @@ public class MaxSumSubArrayOfSizek {
         return maxSum;
     }
 
+    /**
+     * brute force solution
+     * */
+    private static int findSum(int[] arr, int k) {
+        int sum = 0;
+        for (int i = 0; i <= arr.length - k; i++) {
+            int subSum = 0;
+            for (int j = i; j < i + k; j++) {
+                subSum += arr[j];
+            }
+            System.out.println("sub sum: " + subSum);
+            if (subSum > sum) {
+                sum = subSum;
+            }
+        }
+        return sum;
+    }
+
 }
 
