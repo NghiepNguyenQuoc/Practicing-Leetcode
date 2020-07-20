@@ -19,14 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a1b2feb-e5a9-40d6-a5d5-a15eb6d6e559" name="Default" comment="removed findSum2">
+    <list default="true" id="6a1b2feb-e5a9-40d6-a5d5-a15eb6d6e559" name="Default" comment="smallest subarray with a given sum">
+      <change afterPath="$PROJECT_DIR$/src/com/nghiepnguyen/Graph/CheapestFlights.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode Practice/com/nghiepnguyen/Array/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode Practice/com/nghiepnguyen/Array/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode Practice/com/nghiepnguyen/Array/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode Practice/com/nghiepnguyen/LinkedList/MyLinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode Practice/com/nghiepnguyen/LinkedList/MyLinkedList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode Practice/com/nghiepnguyen/LinkedList/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode Practice/com/nghiepnguyen/LinkedList/MyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode Practice/com/nghiepnguyen/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode Practice/com/nghiepnguyen/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nghiepnguyen/Grokking/MaxSumSubArrayOfSizek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nghiepnguyen/Grokking/MaxSumSubArrayOfSizek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode Practice/com/nghiepnguyen/Grokking/MaxSumSubArrayOfSizek.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode Practice/com/nghiepnguyen/Grokking/MaxSumSubArrayOfSizek.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,13 +64,44 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.MaxSumSubArrayOfSizek">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nghiepnguyen.Grokking" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CheapestFlights">
+    <configuration name="CheapestFlights" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nghiepnguyen.Graph.CheapestFlights" />
+      <module name="Leetcode Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nghiepnguyen.Graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EncodeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nghiepnguyen.HackerankTest.EncodeString" />
       <module name="Leetcode Practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.nghiepnguyen.HackerankTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindMinSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nghiepnguyen.Grokking.FindMinSubArray" />
+      <module name="Leetcode Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nghiepnguyen.Grokking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,16 +122,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.nghiepnguyen.Main" />
-      <module name="Leetcode Practice" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MaxSumSubArrayOfSizek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nghiepnguyen.Grokking.MaxSumSubArrayOfSizek" />
       <module name="Leetcode Practice" />
@@ -118,33 +135,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nghiepnguyen.LinkedList.MyLinkedList" />
-      <module name="Leetcode Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nghiepnguyen.LinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.MyLinkedList" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.EncodeString" />
       <item itemvalue="Application.MaxSumSubArrayOfSizek" />
+      <item itemvalue="Application.FindMinSubArray" />
+      <item itemvalue="Application.CheapestFlights" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheapestFlights" />
+        <item itemvalue="Application.FindMinSubArray" />
         <item itemvalue="Application.MaxSumSubArrayOfSizek" />
         <item itemvalue="Application.EncodeString" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.MyLinkedList" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +186,28 @@
       <option name="project" value="LOCAL" />
       <updated>1593820151913</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="replace findSum to findSum2">
+      <created>1593820277943</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593820277943</updated>
+    </task>
+    <task id="LOCAL-00004" summary="findSum and findSum2">
+      <created>1593820411926</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593820411926</updated>
+    </task>
+    <task id="LOCAL-00005" summary="smallest subarray with a given sum">
+      <created>1594105777169</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594105777169</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -201,57 +226,65 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Maximum Sum Subarray of Size K (easy)" />
     <MESSAGE value="removed findSum2" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed findSum2" />
+    <MESSAGE value="replace findSum to findSum2" />
+    <MESSAGE value="findSum and findSum2" />
+    <MESSAGE value="smallest subarray with a given sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="smallest subarray with a given sum" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="496" key="GridCell.Tab.0.bottom" timestamp="1593819789742">
+    <state x="-1193" y="453" width="466" height="205" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1594099883883">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="496" key="GridCell.Tab.0.bottom/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1593819789742" />
-    <state width="1878" height="496" key="GridCell.Tab.0.center" timestamp="1593819789741">
+    <state x="-1193" y="453" width="466" height="205" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1594099883883" />
+    <state width="1878" height="275" key="GridCell.Tab.0.bottom" timestamp="1595269290452">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="496" key="GridCell.Tab.0.center/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1593819789741" />
-    <state width="1878" height="496" key="GridCell.Tab.0.left" timestamp="1593819789741">
+    <state width="1878" height="275" key="GridCell.Tab.0.bottom/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1595269290452" />
+    <state width="1878" height="275" key="GridCell.Tab.0.center" timestamp="1595269290451">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="496" key="GridCell.Tab.0.left/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1593819789741" />
-    <state width="1878" height="496" key="GridCell.Tab.0.right" timestamp="1593819789741">
+    <state width="1878" height="275" key="GridCell.Tab.0.center/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1595269290451" />
+    <state width="1878" height="275" key="GridCell.Tab.0.left" timestamp="1595269290450">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="496" key="GridCell.Tab.0.right/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1593819789741" />
-    <state width="1878" height="496" key="GridCell.Tab.1.bottom" timestamp="1593819789743">
+    <state width="1878" height="275" key="GridCell.Tab.0.left/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1595269290450" />
+    <state width="1878" height="275" key="GridCell.Tab.0.right" timestamp="1595269290451">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="496" key="GridCell.Tab.1.bottom/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1593819789743" />
-    <state width="1878" height="496" key="GridCell.Tab.1.center" timestamp="1593819789742">
+    <state width="1878" height="275" key="GridCell.Tab.0.right/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1595269290451" />
+    <state width="1878" height="496" key="GridCell.Tab.1.bottom" timestamp="1594323217128">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="496" key="GridCell.Tab.1.center/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1593819789742" />
-    <state width="1878" height="496" key="GridCell.Tab.1.left" timestamp="1593819789742">
+    <state width="1878" height="496" key="GridCell.Tab.1.bottom/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1594323217128" />
+    <state width="1878" height="496" key="GridCell.Tab.1.center" timestamp="1594323217127">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="496" key="GridCell.Tab.1.left/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1593819789742" />
-    <state width="1878" height="496" key="GridCell.Tab.1.right" timestamp="1593819789742">
+    <state width="1878" height="496" key="GridCell.Tab.1.center/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1594323217127" />
+    <state width="1878" height="496" key="GridCell.Tab.1.left" timestamp="1594323217127">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="496" key="GridCell.Tab.1.right/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1593819789742" />
-    <state x="-1360" y="291" key="Vcs.Push.Dialog.v2" timestamp="1593820157237">
+    <state width="1878" height="496" key="GridCell.Tab.1.left/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1594323217127" />
+    <state width="1878" height="496" key="GridCell.Tab.1.right" timestamp="1594323217128">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1593820157237" />
+    <state width="1878" height="496" key="GridCell.Tab.1.right/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1594323217128" />
+    <state x="-1360" y="291" key="Vcs.Push.Dialog.v2" timestamp="1594105778543">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1594105778543" />
     <state x="-1259" y="140" width="598" height="822" key="find.popup" timestamp="1593817525380">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1259" y="140" width="598" height="822" key="find.popup/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1593817525380" />
-    <state x="-1295" y="258" key="search.everywhere.popup" timestamp="1593817517048">
+    <state x="-1295" y="258" key="search.everywhere.popup" timestamp="1595268906717">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1295" y="258" key="search.everywhere.popup/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1593817517048" />
+    <state x="-1295" y="258" key="search.everywhere.popup/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1595268906717" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -278,8 +311,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/nghiepnguyen/Grokking/MaxSumSubArrayOfSizek.java</url>
-          <line>7</line>
+          <line>26</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/nghiepnguyen/Grokking/FindMinSubArray.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/nghiepnguyen/Graph/CheapestFlights.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
